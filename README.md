@@ -2,7 +2,7 @@
 This project implements a set library in C, providing basic set operations such as union, intersection, difference, element insertion and removal.
 
 ## Introduction
-The project consists of a C library that implements fundamental operations for manipulating sets ("Conjuntos" in Portuguese) of integers. The primary objective of this library is to provide an efficient way to perform common set operations, such as union and intersection, while ensuring that sets maintain their properties. In addition to the library, a test suite is implemented to ensure the correctness and robustness of the functions, aiming for effective memory management without leaks.
+The project consists of a C library that implements fundamental operations for manipulating sets ("Conjuntos", in Portuguese) of integers. The primary objective of this library is to provide an efficient way to perform common set operations, such as union and intersection, while ensuring that sets maintain their properties. In addition to the library, a test suite is implemented to ensure the correctness and robustness of the functions, aiming for effective memory management without leaks.
 
 ### Implemented Functions
 1. conjunto_t *cria_conjunto(int max): This function allocates memory for a new set with a specified maximum size.
